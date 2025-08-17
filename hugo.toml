@@ -1,0 +1,47 @@
+baseURL = 'https://javi-tech-1971.github.io/GitHugoCodespace/'
+languageCode = 'es-es'
+title = 'Mi Sitio con Hextra y Codespaces'
+theme = 'hextra'
+
+# Activar el menú de la documentación en la barra lateral
+[menu]
+  [[menu.main]]
+    name = "Documentación"
+    pageRef = "docs"
+    weight = 1
+  [[menu.main]]
+    name = "Blog"
+    pageRef = "blog"
+    weight = 2
+  [[menu.main]]
+    name = "Sobre Mí"
+    pageRef = "about"
+    weight = 5
+
+# Parámetros específicos de la plantilla Hextra
+[params]
+  # Configuración de la apariencia (navbar, pie de página, etc.)
+  navbar =
+    displayTitle = true
+    displayLogo = false
+    # Puedes añadir un logo aquí si quieres: logo = "/images/logo.svg"
+
+  footer =
+    displayCopyright = true
+    displayPoweredBy = true
+
+  # Configuración de la paleta de colores (dark, light, auto)
+  theme =
+    displayToggle = true
+    default = "auto"
+
+  # Configuración de la página principal (puedes personalizarla)
+  main =
+    displayHero = true
+    hero =
+      title = "Proyecto de Guía Definitiva"
+      subtitle = "Construyendo un sitio con Hugo, Codespaces y GitHub Actions. Hecho con la plantilla Hextra."
+      button =
+        display = true
+        title = "Empezar a leer"
+        url = "docs"
