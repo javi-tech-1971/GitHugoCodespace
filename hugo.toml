@@ -48,4 +48,4 @@ theme = 'hextra'
       button =
         display = true
         title = "Empezar a leer"
-        url = "docs"```
+        url = "docs"
